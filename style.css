@@ -1,0 +1,40 @@
+body,
+h1,
+h2 {
+    margin: 0;
+}
+header{
+    background-color: rgb(105, 102, 99);
+}
+
+.header__padded, .dropdowns__padded{
+    padding: 2rem 10%;
+}
+.hero {
+    height: 500px;
+    background-image: url(ps1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.products_container{
+    display: grid;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.products img{
+    width: 250px
+}
+.spotlights{
+    background-color: blue;
+    -webkit-text-fill-color: aliceblue;
+}
+footer{
+    background-color: blue;
+
+}
